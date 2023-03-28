@@ -1,0 +1,28 @@
+body {
+    background-color: transparent !important;
+}
+
+.template, .notification {
+}
+
+.notif-container {
+    position: absolute;
+    margin-top: 1%;
+    right: 1%;
+}
+
+.notification {
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    font: caption;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.success, .inform, .error {
+    background: rgba(33, 35, 48, 0.9);
+    color: #fff;
+    opacity: 0.9;
+    border: 1px solid #481b91;
+}
